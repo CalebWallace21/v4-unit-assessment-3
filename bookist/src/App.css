@@ -1,5 +1,6 @@
 .App {
   text-align: center;  
+  background-color: rgb(240,240,240);  
 }
 
 .App-logo {
@@ -42,16 +43,16 @@
   justify-content:space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
-  
+  margin-top: 15px;
 }
 .book-picture {
   width: 135px;
-  margin: 15px
+  margin: 0px
 }
 .book-text {
   width: 115px;
   word-wrap: normal;
-  margin-left: 25px;
+  margin-left: 55px;
 }
 .seperator {
   
@@ -62,4 +63,20 @@
 .shelf {
   width:25%;
   border-left: 1px solid black;  
+}
+.header {
+  height:7vh;
+  background-color: white;
+  color: rgb(60,137,138);
+}
+.search-bar {
+  margin-top: 20px;  
+}
+.clear-search:hover{
+  background-color: blue;
+  color: green;
+}
+.shelf-button:hover{
+  background-color: black;
+  color: white;
 }
